@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<title>a-vnc Example</title>
+<script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+<script src="./a-vnc.js"></script>
+<a-scene>
+	<a-plane
+		position="0 2 -4"
+		width="8" height="6"
+		color="black"
+		vnc="url: ws://localhost:5900"
+	></a-plane>
+	<a-plane position="0 0 -4" rotation="-90 0 0" width="8" height="8" color="#7BC8A4"></a-plane>
+	<a-sky color="#ECECEC"></a-sky>
+</a-scene>
